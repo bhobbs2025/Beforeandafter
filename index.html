@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Before and After Photos</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f7f7f7; margin: 0; padding: 20px; }
+    h1 { text-align: center; }
+    .group { margin: 30px auto; background: #fff; padding: 20px; border-radius: 8px; max-width: 700px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);}
+    .photos { display: flex; justify-content: space-around; align-items: center; margin-top: 15px; }
+    .photo-label { text-align: center; margin-top: 8px; font-weight: bold; }
+    img { max-width: 300px; height: auto; border-radius: 4px; border: 1px solid #ccc; }
+    @media (max-width: 800px) {
+      .photos { flex-direction: column; }
+      img { max-width: 90vw; }
+    }
+  </style>
+</head>
+<body>
+  <h1>Before and After Photos</h1>
+
+  <div class="group">
+    <h2>Group 1</h2>
+    <div class="photos">
+      <div>
+        <img src="Photo 1" alt="Before Photo 1">
+        <div class="photo-label">Before</div>
+      </div>
+      <div>
+        <img src="Photo 2" alt="After Photo 2">
+        <div class="photo-label">After</div>
+      </div>
+    </div>
+  </div>
+  <div class="group">
+    <h2>Group 2</h2>
+    <div class="photos">
+      <div>
+        <img src="Photo 3" alt="Before Photo 3">
+        <div class="photo-label">Before</div>
+      </div>
+      <div>
+        <img src="Photo 4" alt="After Photo 4">
+        <div class="photo-label">After</div>
+      </div>
+    </div>
+  </div>
+  <div class="group">
+    <h2>Group 3</h2>
+    <div class="photos">
+      <div>
+        <img src="Photo 5" alt="Before Photo 5">
+        <div class="photo-label">Before</div>
+      </div>
+      <div>
+        <img src="Photo 6" alt="After Photo 6">
+        <div class="photo-label">After</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
